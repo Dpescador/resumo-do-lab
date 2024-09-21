@@ -23,6 +23,13 @@ Criação de um Pull Request: Solicitar a incorporação das suas alterações n
 
 No link <https://github.com/digitalinnovationone/dio-lab-open-source?tab=readme-ov-file> é possível consultar mais detalhes sobre o fluxo mencionado acima, além de guias sobre Markdown e outros utilitários relacionados ao GitHub.
 
+💡 As convenções do Git ajudam a manter um histórico de commits claro e organizado, facilitando a colaboração e a manutenção do código, abaixo algumas mais usadas:
+
+* fix: Correção de um bug.
+* feat: Adição de um novo recurso.
+* docs: Alterações na documentação.
+* style: Alterações de formatação que não afetam o código.
+* refactor: Mudanças no código que não corrigem bugs nem adicionam recursos1.
 
 
 # ☁️ Benefícios da Nuvem Azure 
