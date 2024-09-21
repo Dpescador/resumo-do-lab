@@ -1,7 +1,7 @@
 # 💻 resumo-do-lab 🚀
 
-Icones usados:
-💡💻🚀📊☁️
+💡 Icones usados: <https://github.com/markdown-templates/markdown-emojis>
+
 
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 ---
@@ -63,6 +63,4 @@ No Azure, a governança na nuvem pode ser simplificada e fortalecida, especialme
 A gerenciabilidade na nuvem refere-se à facilidade com que as organizações podem administrar e monitorar seus recursos e operações em um ambiente de nuvem. Podemos criar a estrutura de servidores, configurações, claster em nuvem via portal ou linha de comando.
 
 
-
 Link: https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing/?msockid=31e5b9f57bda6d8b0ee8aa5d7aa36c18
-
