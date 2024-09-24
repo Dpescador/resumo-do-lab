@@ -71,3 +71,19 @@ A gerenciabilidade na nuvem refere-se à facilidade com que as organizações po
 
 
 Link: https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing/?msockid=31e5b9f57bda6d8b0ee8aa5d7aa36c18
+
+
+
+# IaaS (Infrastructure as a Service) - Infraestrutura como Serviço
+O que é: O IaaS fornece uma infraestrutura de computação virtualizada pela nuvem, como servidores, armazenamento, rede e sistemas operacionais. É a camada mais básica dos serviços em nuvem, onde você tem mais controle sobre os recursos.
+
+Responsabilidade do usuário: Gerenciar o sistema operacional, o middleware, os dados, as aplicações, etc.
+
+Exemplos no Azure:
+
+* Máquinas Virtuais (Azure Virtual Machines): Você pode criar, configurar e gerenciar máquinas virtuais (VMs), incluindo a escolha do sistema operacional, dimensionamento de CPU, armazenamento, etc.
+* Rede Virtual (Azure Virtual Network): Permite que os usuários criem redes privadas em nuvem.
+* Armazenamento (Azure Storage): Oferece armazenamento escalável para dados estruturados e não estruturados.
+* Vantagens: Flexibilidade e controle total sobre a infraestrutura, sem necessidade de manter hardware físico.
+
+
