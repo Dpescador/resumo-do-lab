@@ -86,4 +86,46 @@ Exemplos no Azure:
 * Armazenamento (Azure Storage): Oferece armazenamento escalável para dados estruturados e não estruturados.
 * Vantagens: Flexibilidade e controle total sobre a infraestrutura, sem necessidade de manter hardware físico.
 
+# Componentes de Arquitetura do Azure
+O Azure é estruturado para oferecer serviços em uma nuvem distribuída, permitindo a construção, implementação e gerenciamento de aplicativos em larga escala. Esses componentes incluem:
 
+Regiões: São áreas geográficas que contêm um ou mais datacenters. Cada região no Azure oferece serviços específicos e permite o isolamento geográfico dos dados.
+
+Zonas de Disponibilidade: São localizações físicas dentro de uma região. Cada zona é composta por um ou mais datacenters com infraestrutura independente (energia, rede, refrigeração) para garantir alta disponibilidade e redundância de serviços.
+
+Pares de Regiões: São duas regiões emparelhadas dentro da mesma geografia (por exemplo, Brasil Sul e Brasil Sudeste). Isso oferece redundância geográfica e recuperação de desastres, já que os dados são replicados entre as duas regiões.
+
+Regiões Soberanas: Regiões dedicadas que atendem a requisitos de soberania de dados, como o Azure Government (EUA) e o Azure China, onde as regulamentações locais exigem controle estrito sobre os dados.
+
+2. Zonas de Disponibilidade e Datacenters do Azure
+As Zonas de Disponibilidade são projetadas para fornecer resiliência a falhas localizadas, oferecendo redundância a nível físico. Cada zona possui:
+
+Energia, resfriamento e rede independentes.
+Redundância para garantir que, se uma zona falhar, os serviços possam ser transferidos para outra dentro da mesma região.
+Datacenters são as unidades físicas que compõem as zonas e as regiões. Cada região pode ter vários datacenters, mas todos dentro de uma zona de disponibilidade compartilham os mesmos princípios de isolamento físico.
+
+3. Recursos e Grupos de Recursos do Azure
+Recursos: Qualquer serviço ou componente que você cria e utiliza no Azure, como VMs, bancos de dados, redes virtuais, etc.
+Grupos de Recursos: São contêineres que organizam e agrupam recursos relacionados para facilitar o gerenciamento e a automação. Isso permite que você gerencie os recursos como uma unidade lógica, aplicando políticas, controle de acesso e monitoramento.
+4. Assinaturas e Recursos de Gerenciamento
+Assinaturas: Unidades de faturamento no Azure que associam um conjunto de recursos a um plano de pagamento. Cada assinatura define limites de serviço, políticas de acesso e orçamentos de custos.
+Recursos de Gerenciamento: Incluem ferramentas como o Azure Policy (para aplicar regras) e o Azure Cost Management (para controlar e otimizar custos). Além disso, o Azure Role-Based Access Control (RBAC) é usado para conceder permissões a usuários.
+5. Hierarquia de Grupos de Recursos, Assinaturas e Grupos de Gerenciamento
+Grupos de Recursos: São a camada mais granular da hierarquia e contêm os recursos de uma assinatura.
+Assinaturas: São agrupadas em Grupos de Gerenciamento, que fornecem um nível adicional de organização. Você pode aplicar políticas e controles de acesso em nível de grupo de gerenciamento para controlar várias assinaturas de maneira centralizada.
+A hierarquia se organiza da seguinte forma:
+
+Grupos de Gerenciamento (topo): Agrupam várias assinaturas e aplicam políticas e permissões.
+Assinaturas: Agrupam recursos dentro de uma única unidade de faturamento.
+Grupos de Recursos: Organizam e agrupam os recursos individuais.
+Recursos: São os serviços específicos, como VMs, bancos de dados e redes.
+
+# O que é o Microsoft Entra ID?
+O Microsoft Entra ID é o serviço de gerenciamento de identidades e acessos baseado em nuvem da Microsoft. Ele oferece:
+
+* Gerenciamento de identidades: Criação, gerenciamento e autenticação de usuários e grupos.
+* Autenticação segura: Autenticação multifator (MFA), autenticação condicional e Single Sign-On (SSO).
+* Integração com aplicativos: Permite que os usuários acessem * vários aplicativos (locais e em nuvem) com uma única credencial.
+* Segurança de identidades: Protege contra acessos não autorizados com políticas de segurança robustas e monitoramento contínuo.
+* Gerenciamento de dispositivos: Integração com políticas de segurança de dispositivos.
+* Esse serviço é amplamente utilizado em ambientes corporativos para gerenciar o acesso de usuários a recursos e dados, tanto no Azure quanto em outros serviços Microsoft 365.
