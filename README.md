@@ -129,3 +129,5 @@ O Microsoft Entra ID é o serviço de gerenciamento de identidades e acessos bas
 * Segurança de identidades: Protege contra acessos não autorizados com políticas de segurança robustas e monitoramento contínuo.
 * Gerenciamento de dispositivos: Integração com políticas de segurança de dispositivos.
 * Esse serviço é amplamente utilizado em ambientes corporativos para gerenciar o acesso de usuários a recursos e dados, tanto no Azure quanto em outros serviços Microsoft 365.
+
+---
